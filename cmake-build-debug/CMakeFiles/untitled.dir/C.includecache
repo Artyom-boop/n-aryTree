@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/1290743/CLionProjects/n-aryTrie/src/main.c
+trie.h
+C:/Users/1290743/CLionProjects/n-aryTrie/src/trie.h
+../test/test.h
+C:/Users/1290743/CLionProjects/n-aryTrie/test/test.h
+
+C:/Users/1290743/CLionProjects/n-aryTrie/src/trie.h
+stdio.h
+-
+stdlib.h
+C:/Users/1290743/CLionProjects/n-aryTrie/src/stdlib.h
+
+C:/Users/1290743/CLionProjects/n-aryTrie/test/test.h
+assert.h
+C:/Users/1290743/CLionProjects/n-aryTrie/test/assert.h
+time.h
+C:/Users/1290743/CLionProjects/n-aryTrie/test/time.h
+
