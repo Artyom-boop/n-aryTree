@@ -3,12 +3,12 @@
 
 CMakeFiles/untitled.dir/src/main.c.obj
  C:/Users/1290743/CLionProjects/n-aryTrie/src/main.c
- C:/Users/1290743/CLionProjects/n-aryTrie/src/trie.h
+ C:/Users/1290743/CLionProjects/n-aryTrie/src/tree.h
  C:/Users/1290743/CLionProjects/n-aryTrie/test/test.h
-CMakeFiles/untitled.dir/src/trie.c.obj
- C:/Users/1290743/CLionProjects/n-aryTrie/src/trie.c
- C:/Users/1290743/CLionProjects/n-aryTrie/src/trie.h
+CMakeFiles/untitled.dir/src/tree.c.obj
+ C:/Users/1290743/CLionProjects/n-aryTrie/src/tree.c
+ C:/Users/1290743/CLionProjects/n-aryTrie/src/tree.h
 CMakeFiles/untitled.dir/test/test.c.obj
- C:/Users/1290743/CLionProjects/n-aryTrie/src/trie.h
+ C:/Users/1290743/CLionProjects/n-aryTrie/src/tree.h
  C:/Users/1290743/CLionProjects/n-aryTrie/test/test.c
  C:/Users/1290743/CLionProjects/n-aryTrie/test/test.h

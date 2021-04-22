@@ -5,14 +5,14 @@ struct node {
     struct node* root;
     int value;
     struct node* *children;
-    int countChildren;
+    unsigned countChildren;
 };
 
 int getValue(struct node* node);
 
 void setValue(struct node* node, int value);
 
-int getSizeChildren(struct node* node);
+unsigned getSizeChildren(struct node* node);
 
 struct node* getChildren(struct node* node);
 

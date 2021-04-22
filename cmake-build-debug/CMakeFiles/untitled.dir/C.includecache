@@ -7,12 +7,12 @@
 #IncludeRegexTransform: 
 
 C:/Users/1290743/CLionProjects/n-aryTrie/src/main.c
-trie.h
-C:/Users/1290743/CLionProjects/n-aryTrie/src/trie.h
+tree.h
+C:/Users/1290743/CLionProjects/n-aryTrie/src/tree.h
 ../test/test.h
 C:/Users/1290743/CLionProjects/n-aryTrie/test/test.h
 
-C:/Users/1290743/CLionProjects/n-aryTrie/src/trie.h
+C:/Users/1290743/CLionProjects/n-aryTrie/src/tree.h
 stdio.h
 -
 stdlib.h

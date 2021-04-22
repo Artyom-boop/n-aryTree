@@ -89,18 +89,18 @@ CMakeFiles/untitled.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/src/main.c.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\1290743\CLionProjects\n-aryTrie\src\main.c -o CMakeFiles\untitled.dir\src\main.c.s
 
-CMakeFiles/untitled.dir/src/trie.c.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/src/trie.c.obj: ../src/trie.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\1290743\CLionProjects\n-aryTrie\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled.dir/src/trie.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled.dir\src\trie.c.obj   -c C:\Users\1290743\CLionProjects\n-aryTrie\src\trie.c
+CMakeFiles/untitled.dir/src/tree.c.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/tree.c.obj: ../src/tree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\1290743\CLionProjects\n-aryTrie\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled.dir/src/tree.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled.dir\src\tree.c.obj   -c C:\Users\1290743\CLionProjects\n-aryTrie\src\tree.c
 
-CMakeFiles/untitled.dir/src/trie.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/src/trie.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\1290743\CLionProjects\n-aryTrie\src\trie.c > CMakeFiles\untitled.dir\src\trie.c.i
+CMakeFiles/untitled.dir/src/tree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/src/tree.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\1290743\CLionProjects\n-aryTrie\src\tree.c > CMakeFiles\untitled.dir\src\tree.c.i
 
-CMakeFiles/untitled.dir/src/trie.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/src/trie.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\1290743\CLionProjects\n-aryTrie\src\trie.c -o CMakeFiles\untitled.dir\src\trie.c.s
+CMakeFiles/untitled.dir/src/tree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/src/tree.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\1290743\CLionProjects\n-aryTrie\src\tree.c -o CMakeFiles\untitled.dir\src\tree.c.s
 
 CMakeFiles/untitled.dir/test/test.c.obj: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/test/test.c.obj: ../test/test.c
@@ -118,14 +118,14 @@ CMakeFiles/untitled.dir/test/test.c.s: cmake_force
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/src/main.c.obj" \
-"CMakeFiles/untitled.dir/src/trie.c.obj" \
+"CMakeFiles/untitled.dir/src/tree.c.obj" \
 "CMakeFiles/untitled.dir/test/test.c.obj"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled.exe: CMakeFiles/untitled.dir/src/main.c.obj
-untitled.exe: CMakeFiles/untitled.dir/src/trie.c.obj
+untitled.exe: CMakeFiles/untitled.dir/src/tree.c.obj
 untitled.exe: CMakeFiles/untitled.dir/test/test.c.obj
 untitled.exe: CMakeFiles/untitled.dir/build.make
 untitled.exe: CMakeFiles/untitled.dir/linklibs.rsp

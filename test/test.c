@@ -33,6 +33,7 @@ int runTest() {
         printConsole(root, 1);
     }
     printf("test clearTrie completed\n");
+    return 0;
 }
 
 int testAdd(struct node* root) {

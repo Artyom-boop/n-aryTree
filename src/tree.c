@@ -8,7 +8,7 @@ void setValue(struct node* node, int value) {
     node -> value = value;
 }
 
-int getSizeChildren(struct node* node) {
+unsigned getSizeChildren(struct node* node) {
     return  node -> countChildren;
 }
 
@@ -37,7 +37,7 @@ struct node* add(struct node* node, int value) {
         node -> countChildren = 0;
     } else {
         node -> countChildren++;
-        int n = node ->countChildren;
+        unsigned n = node ->countChildren;
         struct node* nodeNew;
         nodeNew = (struct node*)malloc(sizeof(struct node));
         nodeNew -> value = value;
@@ -74,7 +74,7 @@ void removeNodeAndChildren(struct node* children) {
 }
 
 void removeNode (struct node* node) {
-    int  n = node -> countChildren;
+    unsigned  n = node -> countChildren;
     struct node* root = node -> root;
     struct node* children1[n];
     for (int i = 0; i < n; ++i) {
@@ -88,7 +88,7 @@ void removeNode (struct node* node) {
 }
 
 void clearTrie(struct node* root) {
-    int size = getSizeChildren(root);
+    unsigned size = getSizeChildren(root);
     if (size > 0) {
         for (int i = 0; i < size; i++) {
             removeNodeAndChildren(root->children[0]);
@@ -98,7 +98,7 @@ void clearTrie(struct node* root) {
 }
 
 void printConsole(struct node* node, int level) {
-    int n = node->countChildren;
+    unsigned n = node->countChildren;
     if (level == 1) {
         printf("level %d(root): %d\n", level, node->value);
         level++;
@@ -115,7 +115,7 @@ void printConsole(struct node* node, int level) {
 }
 
 void printFile(struct node *node, int level, FILE *out) {
-    int n = node->countChildren;
+    unsigned n = node->countChildren;
     if (level == 1) {
         fprintf(out,"level %d(root): %d\n", level, node->value);
             level++;

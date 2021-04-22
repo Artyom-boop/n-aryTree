@@ -77,10 +77,10 @@
 		<Unit filename="C:/Users/1290743/CLionProjects/n-aryTrie/src/main.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/1290743/CLionProjects/n-aryTrie/src/trie.c">
+		<Unit filename="C:/Users/1290743/CLionProjects/n-aryTrie/src/tree.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/1290743/CLionProjects/n-aryTrie/src/trie.h">
+		<Unit filename="C:/Users/1290743/CLionProjects/n-aryTrie/src/tree.h">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="C:/Users/1290743/CLionProjects/n-aryTrie/test/test.c">

@@ -169,32 +169,32 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/main.c.s
 .PHONY : src/main.c.s
 
-src/trie.obj: src/trie.c.obj
+src/tree.obj: src/tree.c.obj
 
-.PHONY : src/trie.obj
+.PHONY : src/tree.obj
 
 # target to build an object file
-src/trie.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/trie.c.obj
-.PHONY : src/trie.c.obj
+src/tree.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/tree.c.obj
+.PHONY : src/tree.c.obj
 
-src/trie.i: src/trie.c.i
+src/tree.i: src/tree.c.i
 
-.PHONY : src/trie.i
+.PHONY : src/tree.i
 
 # target to preprocess a source file
-src/trie.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/trie.c.i
-.PHONY : src/trie.c.i
+src/tree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/tree.c.i
+.PHONY : src/tree.c.i
 
-src/trie.s: src/trie.c.s
+src/tree.s: src/tree.c.s
 
-.PHONY : src/trie.s
+.PHONY : src/tree.s
 
 # target to generate assembly for a file
-src/trie.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/trie.c.s
-.PHONY : src/trie.c.s
+src/tree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/tree.c.s
+.PHONY : src/tree.c.s
 
 test/test.obj: test/test.c.obj
 
@@ -235,9 +235,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/trie.obj
-	@echo ... src/trie.i
-	@echo ... src/trie.s
+	@echo ... src/tree.obj
+	@echo ... src/tree.i
+	@echo ... src/tree.s
 	@echo ... test/test.obj
 	@echo ... test/test.i
 	@echo ... test/test.s
