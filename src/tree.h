@@ -2,10 +2,10 @@
 #include "stdlib.h"
 
 struct node {
-    struct node* root;
-    int value;
-    struct node* *children;
-    unsigned countChildren;
+    struct node* root; // родитель узла
+    int value; // значение узла
+    struct node* *children; // указатель на массив «детей»
+    unsigned countChildren; // размер массива «детей»
 };
 
 int getValue(struct node* node);

@@ -1,11 +1,14 @@
-#include "test.h"
+#include "assert.h"
+#include "time.h"
 #include "../src/tree.h"
+
+#define N 10
 
 int testAdd(struct node* root);
 
 int testRemove(struct node* root);
 
-int runTest() {
+int main() {
     srand(time(NULL));
     struct node *root = add(NULL, 1);
     printf("test add and addNode\n");

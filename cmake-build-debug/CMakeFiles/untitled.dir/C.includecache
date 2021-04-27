@@ -18,6 +18,12 @@ stdio.h
 stdlib.h
 C:/Users/1290743/CLionProjects/n-aryTrie/src/stdlib.h
 
+C:/Users/1290743/CLionProjects/n-aryTrie/test/test.c
+test.h
+C:/Users/1290743/CLionProjects/n-aryTrie/test/test.h
+../src/tree.h
+C:/Users/1290743/CLionProjects/n-aryTrie/src/tree.h
+
 C:/Users/1290743/CLionProjects/n-aryTrie/test/test.h
 assert.h
 C:/Users/1290743/CLionProjects/n-aryTrie/test/assert.h

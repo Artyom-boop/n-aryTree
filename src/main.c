@@ -1,6 +1,4 @@
 #include "tree.h"
-#include "../test/test.h"
-
 
 /*
  * Демонстрационная программа
@@ -9,13 +7,16 @@
  * третий аргумент - выходной файл(out.txt)
  */
 int main(int n, char *arr[]) {
+    if (n == 1) {
+        printf("The command line has no arguments\n");
+        return 0;
+    }
     FILE *input;
     input = fopen(arr[2], "r");
     size_t size = *arr[1] - '0';
     int data[size];
     for (int i = 0; i < size; i++) {
         fscanf(input, "%d", &data[i]);
-        printf("%d\n", data[i]);
     }
     fclose(input);
     struct node* node = add(NULL, data[0]);
@@ -26,6 +27,5 @@ int main(int n, char *arr[]) {
     outFile = fopen(arr[3] ,"w");
     printFile(node, 1, outFile);
     fclose(outFile);
-    runTest();
     return 0;
 }
