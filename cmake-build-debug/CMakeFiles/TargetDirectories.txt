@@ -1,3 +1,4 @@
 C:/Users/1290743/CLionProjects/n-aryTrie/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/1290743/CLionProjects/n-aryTrie/cmake-build-debug/CMakeFiles/untitled.dir
+C:/Users/1290743/CLionProjects/n-aryTrie/cmake-build-debug/CMakeFiles/Main.dir
 C:/Users/1290743/CLionProjects/n-aryTrie/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/1290743/CLionProjects/n-aryTrie/cmake-build-debug/CMakeFiles/Test.dir

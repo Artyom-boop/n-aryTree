@@ -6,27 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/1290743/CLionProjects/n-aryTrie/src/main.c
-tree.h
+C:/Users/1290743/CLionProjects/n-aryTrie/cmake-build-debug/main.c
+../src/tree.h
 C:/Users/1290743/CLionProjects/n-aryTrie/src/tree.h
-../test/test.h
-C:/Users/1290743/CLionProjects/n-aryTrie/test/test.h
 
 C:/Users/1290743/CLionProjects/n-aryTrie/src/tree.h
 stdio.h
 -
 stdlib.h
 C:/Users/1290743/CLionProjects/n-aryTrie/src/stdlib.h
-
-C:/Users/1290743/CLionProjects/n-aryTrie/test/test.c
-test.h
-C:/Users/1290743/CLionProjects/n-aryTrie/test/test.h
-../src/tree.h
-C:/Users/1290743/CLionProjects/n-aryTrie/src/tree.h
-
-C:/Users/1290743/CLionProjects/n-aryTrie/test/test.h
-assert.h
-C:/Users/1290743/CLionProjects/n-aryTrie/test/assert.h
-time.h
-C:/Users/1290743/CLionProjects/n-aryTrie/test/time.h
 

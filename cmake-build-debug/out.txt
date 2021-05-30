@@ -1,2 +1,0 @@
-level 1(root): 1
-level 2(root = 1):  2  3  4  5 

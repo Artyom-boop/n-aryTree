@@ -130,17 +130,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled
+# Target rules for targets named Main
 
 # Build rule for target.
-untitled: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 untitled
-.PHONY : untitled
+Main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Main
+.PHONY : Main
 
 # fast build rule for target.
-untitled/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
-.PHONY : untitled/fast
+Main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/build
+.PHONY : Main/fast
+
+#=============================================================================
+# Target rules for targets named Test
+
+# Build rule for target.
+Test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test
+.PHONY : Test
+
+# fast build rule for target.
+Test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
+.PHONY : Test/fast
 
 src/main.obj: src/main.c.obj
 
@@ -148,7 +161,7 @@ src/main.obj: src/main.c.obj
 
 # target to build an object file
 src/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/src/main.c.obj
 .PHONY : src/main.c.obj
 
 src/main.i: src/main.c.i
@@ -157,7 +170,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -166,7 +179,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 src/tree.obj: src/tree.c.obj
@@ -175,7 +188,8 @@ src/tree.obj: src/tree.c.obj
 
 # target to build an object file
 src/tree.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/tree.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/src/tree.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/tree.c.obj
 .PHONY : src/tree.c.obj
 
 src/tree.i: src/tree.c.i
@@ -184,7 +198,8 @@ src/tree.i: src/tree.c.i
 
 # target to preprocess a source file
 src/tree.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/tree.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/src/tree.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/tree.c.i
 .PHONY : src/tree.c.i
 
 src/tree.s: src/tree.c.s
@@ -193,7 +208,8 @@ src/tree.s: src/tree.c.s
 
 # target to generate assembly for a file
 src/tree.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/tree.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/src/tree.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/tree.c.s
 .PHONY : src/tree.c.s
 
 test/test.obj: test/test.c.obj
@@ -202,7 +218,7 @@ test/test.obj: test/test.c.obj
 
 # target to build an object file
 test/test.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/test/test.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/test/test.c.obj
 .PHONY : test/test.c.obj
 
 test/test.i: test/test.c.i
@@ -211,7 +227,7 @@ test/test.i: test/test.c.i
 
 # target to preprocess a source file
 test/test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/test/test.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/test/test.c.i
 .PHONY : test/test.c.i
 
 test/test.s: test/test.c.s
@@ -220,7 +236,7 @@ test/test.s: test/test.c.s
 
 # target to generate assembly for a file
 test/test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/test/test.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/test/test.c.s
 .PHONY : test/test.c.s
 
 # Help Target
@@ -231,7 +247,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... untitled
+	@echo ... Main
+	@echo ... Test
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

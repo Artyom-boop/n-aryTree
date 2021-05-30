@@ -12,8 +12,16 @@ int main(int n, char *arr[]) {
         return 0;
     }
     FILE *input;
+    if (n != 4) {
+        printf("Invalid number of arguments");
+        return 0;
+    }
     input = fopen(arr[2], "r");
-    size_t size = *arr[1] - '0';
+    if (input == NULL) {
+        printf("File not found");
+        return 0;
+    }
+    size_t size = atoi(arr[1]);
     int data[size];
     for (int i = 0; i < size; i++) {
         fscanf(input, "%d", &data[i]);
@@ -27,5 +35,6 @@ int main(int n, char *arr[]) {
     outFile = fopen(arr[3] ,"w");
     printFile(node, 1, outFile);
     fclose(outFile);
+    free(data);
     return 0;
 }

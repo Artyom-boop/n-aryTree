@@ -3,4 +3,6 @@ project(untitled C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(untitled src/main.c src/tree.c src/tree.h test/test.c test/test.h)
+add_executable(Main src/main.c src/tree.c src/tree.h)
+
+add_executable(Test test/test.c src/tree.c src/tree.h)
