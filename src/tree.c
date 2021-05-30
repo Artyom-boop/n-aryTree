@@ -54,8 +54,8 @@ struct node* add(struct node* node, int value) {
         for (int i = 0; i < n; ++i) {
             node ->children[i] = children1[i];
         }
+        free(children1);
     }
-
     return node;
 }
 
